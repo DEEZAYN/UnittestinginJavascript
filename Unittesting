@@ -1,0 +1,16 @@
+const numbers = [1,2,3,4,65];
+const processnumbers = (array) => {
+const maxnumber = math.max(...array);
+let sum = 0;
+for (let i =0; i <array.length; i++){
+| sum+= array[i];
+}
+const obj = {
+    max: maxnumber, 
+    sum
+}
+return obj 
+}
+const response = processnumber(numbers) 
+
+console.log(response)
